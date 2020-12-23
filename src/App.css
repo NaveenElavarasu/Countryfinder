@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.countrycard img {
+  margin: 15px auto;
+  padding: 0 10px;
+  height: 60px;
+}
+
+
+.countrycard {
+  cursor: pointer;
+}
+
+.countrycard:hover {
+  background-color: #f6f6f6;
+}
+
+.countrycard .card-title {
+  /* height: 40px; */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.modal-header .close {
+  background-color: #f6f6f6;
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+.modal-header .close:hover {
+  background-color: #dddddd;
+}
+
+.modalflag {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.modal-body p {
+  color: #868686;
+  margin-bottom: 5px;
+}
+
+.modal-body h5 {
+  color: #242424;
+  margin-bottom: 15px;
+}
+
+.paddlr-15 {
+  padding: 0 15px 0 15px;
+}
+
+.spinner-grow {
+  position: absolute;
+  right: 15px;
+  top: 2px;
+}
